@@ -1,4 +1,4 @@
-/* GENERAL */ 
+/* ------------- GENERAL ------------- */ 
 
 *{
     margin: 0px; 
@@ -16,11 +16,96 @@ h1{
     color: rgb(66, 61, 61);
 }
 
+h2{
+    color: rgb(66, 61, 61);
+    font-size: 55px;  
+}
+
+ul{
+    list-style: none; 
+
+}
+
+.wrapper{
+    width: 940px; 
+    margin: 0px auto; 
+    padding: 0 10px; 
+}
+
 .orange{
     color:rgb(252, 138, 45);
 }
 
+a{
+    text-decoration: none; 
+    color: rgb(66, 61, 61);
+}
 
 
+/* ------------- HEADER -------------- */ 
 
-/* HEADER */ 
+header{
+    height: 120px;    
+}
+
+header h1 {
+    float: left; 
+    margin-top: 32px; 
+}
+
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li{
+    float: left;  
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold; 
+    margin-right: 20px; 
+}
+
+header nav ul li a:hover{
+    color:rgb(252, 138, 45);
+}
+
+/* ------------- Main Img -------------- */ 
+
+#main_img{
+    height: 500px;
+    background: url("../AgencyProject/img/main\ \(1\).jpg") center; 
+
+}
+
+#main_img h2{
+    font-weight: normal; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding-top: 150px; 
+    padding-right: 0px; 
+    padding-left:0px; 
+    margin: 20px; 
+}
+
+#stronger{
+    font-weight: bolder; 
+}
+
+.button1{
+    width:120px; 
+    height: 50px; 
+    display: block; 
+    background:rgb(252, 138, 45);
+    color: white; 
+    font-size: 20px; 
+    margin: 0px auto; 
+    line-height: 50px; 
+    text-align: center; 
+    border-radius: 3px; 
+    opacity: 0.8;
+}
+
+/* ------------- Steps -------------- */ 
