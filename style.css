@@ -291,6 +291,25 @@ input::placeholder{
     background:rgb(252, 138, 45);
 }
 
+/* ------------- Footer -------------- */ 
+
+footer{
+    background-color: rgb(66, 61, 61); 
+    height: 260px; 
+}
+
+footer h1{
+    color: white;
+    text-align: center; 
+    padding-top: 80px; 
+}
+
+.copyright{
+    text-align: center; 
+    font-weight: bold; 
+    padding-top: 30px; 
+    color: rgb(214, 211, 211)
+}
 
 /* ------------- Responsive -------------- */ 
 
